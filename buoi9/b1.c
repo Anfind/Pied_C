@@ -5,6 +5,11 @@ int main(){
     int start, end;
     scanf("%d", &start);
     scanf("%d", &end);
+    if( end < start){
+        end *= start;
+        start = end / start;
+        end /= start;
+    }
     sum(start, end);
     int n;
 }
