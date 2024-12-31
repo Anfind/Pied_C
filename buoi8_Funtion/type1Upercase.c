@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-
+// ko in ko out
 void toUpperCaseV1();
 
 int main(){
