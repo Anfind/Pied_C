@@ -12,7 +12,7 @@ void toUpperCaseV1(){
     char ch;
     scanf("%c", &ch);
     fflush(stdin);
-    if( ch >+ 'a' && ch <= 'z'){
+    if( ch >= 'a' && ch <= 'z'){
         ch -= ' ';
     }
     printf("\n%c", ch);
