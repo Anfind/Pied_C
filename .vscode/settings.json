@@ -3,5 +3,8 @@
         "random": "c",
         "stdio.h": "c",
         "algorithm": "c"
-    }
+    },
+    "cSpell.words": [
+        "thuc"
+    ]
 }

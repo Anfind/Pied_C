@@ -18,15 +18,13 @@ int checkInput(){
 }
 
 int computeFibo(int n){ //index n
-    int pre = 1, fibo = n, cur = 0;
+    int pre = 0, fibo = n, cur = 1;
     if(n <= 0) return 0;
     for(int i = 2; i <= n; i++){
         fibo = pre + cur;
-        cur = pre;
-        pre = fibo;
-        
+        pre = cur;
+        cur = fibo;
     }
-    
     return fibo;
 }
 

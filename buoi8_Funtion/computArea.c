@@ -5,9 +5,6 @@ int computeArea3();
 int computeArea4(int w, int h);
 
 int main(){
-
-
-
     return 0;
 }
 
