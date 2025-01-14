@@ -11,7 +11,7 @@ int checkInput(){
         fflush(stdin);
         if(ch != 10 || n != (int)n ){
             printf("\nNhap laiii: ");
-            ch = 'a';
+            // ch = 'a';
         }
     }while( ch != 10);
     return n;
@@ -32,9 +32,10 @@ int computeFibo(int n){ //index n
 
 int main(){
     int n;
+    printf("%d", checkInput());
     // int n = checkInput();
     // printf("\n%d", n);
-    scanf("%d",&n);
-    printf("%d", computeFibo(n));
+    // scanf("%d",&n);
+    // printf("%d", computeFibo(n));
     return 0;
 }
