@@ -32,10 +32,11 @@ int computeFibo(int n){ //index n
 
 int main(){
     int n;
-    printf("%d", checkInput());
+    // printf("%d", checkInput());
+    scanf("%d", &n);
     // int n = checkInput();
     // printf("\n%d", n);
     // scanf("%d",&n);
-    // printf("%d", computeFibo(n));
+    printf("%d", computeFibo(n));
     return 0;
 }
