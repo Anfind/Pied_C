@@ -5,7 +5,7 @@ void inputArr(int arr[], int *size);
 void outputArr(int arr[], int size);
 void cpyArr(int arr1[], int size1, int arr2[], int *size2);
 void concatArr(int arr1[], int *size1, int arr2[], int *size2);
-void *devideArr(int arr1[], int *size1, int *devidedSize);
+void *devideArr(int arr1[], int *size1, int pos, int *devidedSize);
 
 int main(){
     int arr[100] = {0};
@@ -50,6 +50,9 @@ void concatArr(int arr1[], int *size1, int arr2[], int *size2){
     *size2 = 0;
 }
 
-void *devideArr(int arr1[], int *size1, int *devidedSize){
-
+void *devideArr(int arr1[], int *size1, int pos, int *devidedSize){
+    *devidedSize = 0;
+    for( int i = pos; i <= *size1; i++){
+        
+    }
 }
