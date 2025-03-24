@@ -32,7 +32,7 @@ int main(){
     }else printf("\nCut");
 
 
-    // && tim menh de false, gap false -> all false, tim k dc flase -> all true
+    // && tim menh    de false, gap false -> all false, tim k dc flase -> all true
     //  & chay cho = het, roi ms ket luan
     int a = 12;
     int b = 5;
